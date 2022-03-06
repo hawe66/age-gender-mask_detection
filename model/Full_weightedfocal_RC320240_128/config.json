@@ -1,0 +1,27 @@
+{
+    "seed": 42,
+    "epochs": 20,
+    "dataset": "MaskSplitByProfileDataset",
+    "augmentation": "CustomAugmentation",
+    "data_multiply": 0,
+    "smote": 0,
+    "resize": [
+        320,
+        240
+    ],
+    "batch_size": 64,
+    "valid_batch_size": 256,
+    "model": "MyModel",
+    "hidden_layer": 128,
+    "freeze": 1,
+    "optimizer": "Adam",
+    "lrscheduler": "StepLR",
+    "lr": 0.001,
+    "val_ratio": 0.2,
+    "criterion": "focal",
+    "lr_decay_step": 3,
+    "log_interval": 20,
+    "name": "Full_weightedfocal_RC320240_128",
+    "data_dir": "/opt/ml/input/data/train/images",
+    "model_dir": "./model"
+}

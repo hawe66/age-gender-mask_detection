@@ -14,11 +14,14 @@ From these description, you can guess the main objective of this task is to hand
   - Age >= 60 are only 7 % of the whole data  
   - Unmasked, Incorrect are only 14 % of the whole data, respectively  
   
-My approach was to solve this problem via...  
-  1) Using resnet18 (relatively slight model) as a pretrained model and fine-tune  
-  2) Using [smote algorithm](https://github.com/ufoym/imbalanced-dataset-sampler) to oversample the sparse data  
-  3) Using weighted focal loss to signify the sparse label  
-  4) Using Test Time Augmentation (TTA) to get robust decision from a model  
+**My approach was to solve this problem via...**  
+  1) Using **resnet18** (relatively slight model) as a pretrained model and fine-tune  
+  2) Using **[smote algorithm](https://github.com/ufoym/imbalanced-dataset-sampler)** to oversample the sparse data  
+  3) Using **weighted focal loss** to signify the sparse label detection  
+  4) Using **Test Time Augmentation (TTA)** to get robust decision from a model  
+  
+  additional tries...
+  + center crop & random crop while remaining **original pixel sizes(fatal!)**  
   + Separating tasks (age/gender/mask) and encode multi labels from the three separate models  
   + Using model weights pretrained from age detection task  
 
