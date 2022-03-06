@@ -39,7 +39,7 @@ From these description, you can guess the main objective of this task is to hand
 - additional validation saved at `exploration`  
   - EDA, Inference Validation, ... are done by ipython kernel  
 - model weights pretrained by face detection task stored at `pretrained`  
-  - links, methods are described in the [pretrained](https://github.com/hawe66/age-gender-mask_detection/pretrained)  
+  - links, methods are described in the [pretrained](https://github.com/hawe66/age-gender-mask_detection/tree/main/pretrained)  
   
 ## Settings  
   
