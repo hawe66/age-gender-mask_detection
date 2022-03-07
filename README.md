@@ -4,10 +4,10 @@
 ## Experiment Description  
 The task is to discriminate age/gender/mask from the face image.  
 <p align="center">
-  <a href="#task-summary"><img width="100%" src="https://trboard.game.onstove.com/Data/TR/20170103/19/636190674935753697.PNG" /></a>
+  <a href="#task-summary"><img width="100%" src="https://github.com/hawe66/age-gender-mask_detection/tree/main/imgs/56bd7d05-4eb8-4e3e-884d-18bd74dc4864.png" /></a>
 </p>
 <p align="center">
-  <a href="#EDA"><img width="100%" src="https://trboard.game.onstove.com/Data/TR/20170103/19/636190674935753697.PNG" /></a>
+  <a href="#EDA"><img width="100%" src="https://github.com/hawe66/age-gender-mask_detection/tree/main/imgs/56bd7d05-4eb8-4e3e-884d-18bd74dc4864.png" /></a>
 </p>
   
 From these description, you can guess the main objective of this task is to handle the unbalanced labels.  
