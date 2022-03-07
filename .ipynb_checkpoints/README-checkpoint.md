@@ -9,6 +9,9 @@ The task is to discriminate age/gender/mask from the face image.
 <p align="center">
   <a href="#EDA"><img width="100%" src="https://github.com/hawe66/age-gender-mask_detection/blob/main/imgs/age_distribution.png" /></a>
 </p>
+<p align="center">
+  <a href="#EDA"><img width="100%" src="https://github.com/hawe66/age-gender-mask_detection/blob/main/imgs/dirlists.png" /></a>
+</p>
   
 From these description, you can guess the main objective of this task is to handle the unbalanced labels.  
   - Age >= 60 are only 7 % of the whole data  
